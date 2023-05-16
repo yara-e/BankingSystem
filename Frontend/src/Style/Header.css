@@ -1,0 +1,96 @@
+@import('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+ 
+* {
+
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* background: #f6f5f7; */
+}
+header {
+        top: 0px;
+        position: absolute;
+        left: 0;
+        width:100%;
+        color:#fff;
+}
+
+.inner-width {
+    position: absolute;
+    padding: 0 10px;
+    margin: auto;
+}
+
+.logo {
+    padding-top:20px;
+    color: #fff;
+     padding-left:170px;
+}
+
+ 
+
+.navigation-menu {
+    float: right !important;
+    position: absolute;
+    top: 8px;
+    left: 1000px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.navigation-menu a {
+    margin-left: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 12px 20px;
+    border-radius: 4px;
+    transition: .3s linear;
+    text-decoration:none;
+}
+
+.navigation-menu a:hover {
+     
+    color:#fff;
+    transform: scale(1.1);
+}
+
+.navigation-menu i {
+    margin-right: 8px;
+    font-size: 16px;
+}
+.home {
+    color: #fff;
+}
+
+.menu-toggle-btn {
+    float: right;
+    height: 90px;
+    line-height: 90px !important;
+    color: #fff;
+    font-size: 26px;
+    display: none !important;
+    cursor: pointer;
+}
+#bank{
+    width:100%;
+    height:500px;
+    
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#fff;
+    font-size:20px;
+    text-align: center;
+  }
